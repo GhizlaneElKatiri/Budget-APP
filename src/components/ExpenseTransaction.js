@@ -11,11 +11,7 @@ const ExpenseTransaction = ({ expenseTransaction }) => {
         ${expenseTransaction.expenseAmount}
       </span>
       <button
-        onClick={() => deleteTransaction(expenseTransaction.id)}
-        className="del-btn"
-      >
-       DELLET
-      </button>
+        onClick={() => deleteTransaction(expenseTransaction.id)} className="del-btn"> DELLET </button>
     </li>
   );
 };

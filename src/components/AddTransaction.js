@@ -27,7 +27,6 @@ const AddTransaction = () => {
       };
 
       addIncome(newIncomeTransaction);
-
       setIncome({
         incomeText: "",
         incomeAmount: 0,
